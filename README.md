@@ -49,8 +49,10 @@ This will sit in between the player on location
 and Niantic through a VPN or the like.
 This is how we can sniff and change everything that comes through
 in either direction.
+- python 2.7: Because of mitmproxy
 - flask: We'll probably use flask as a small web dev framework
 to get something up and running right away.
+- front-end: ???
 - community libs for manipulating the protobufs (think binary data)
 that come through
 
