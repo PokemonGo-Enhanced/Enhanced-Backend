@@ -66,3 +66,7 @@ Everyone's welcome: from web dev to TCP sleuth.
 
 Even unsollicited PRs are welcome.
 You know what to do!
+
+### Ideas
+You've got an original idea?
+Sure, throw it in the Issues section.
