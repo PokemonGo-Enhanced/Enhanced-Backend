@@ -1,3 +1,4 @@
-const server = new require('./lib/server');
+const config = require('./lib/config');
+const app = new require('./lib/server');
 
-server.start();
+app.listen(config.express.port);
