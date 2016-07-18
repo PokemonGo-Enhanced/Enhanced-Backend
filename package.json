@@ -5,7 +5,7 @@
   "main": "index.js",
   "dependencies": {
     "pokemon-go-mitm-node": "git+https://github.com/rastapasta/pokemon-go-mitm-node.git",
-    "pokemongo-protobuf": "git+https://github.com/rubenvereecken/node-pokemongo-protobuf.git"
+    "pokemongo-protobuf": "git+https://github.com/rastapasta/node-pokemongo-protobuf.git"
   },
   "devDependencies": {
     "coffee-script": "^1.10.0"
