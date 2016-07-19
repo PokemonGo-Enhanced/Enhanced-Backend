@@ -4,6 +4,11 @@
   "description": "Pokemon Go Enhanced",
   "main": "index.js",
   "dependencies": {
+    "body-parser": "^1.15.2",
+    "cookie-parser": "^1.4.3",
+    "express": "^4.14.0",
+    "lodash": "^4.13.1",
+    "morgan": "^1.7.0",
     "pokemon-go-mitm-node": "git+https://github.com/rastapasta/pokemon-go-mitm-node.git",
     "pokemongo-protobuf": "git+https://github.com/rastapasta/node-pokemongo-protobuf.git"
   },
