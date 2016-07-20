@@ -19,9 +19,10 @@ What follows is a little overview of dreams
 (or as devs like to call it, a TODO list).
 
 ### Will definitely happen
+- [x] Pokeballs always hit
+- [x] (Kinda) Auto-interacting with Pokestops in range 
 - [ ] Extended visibility within the app
 - [ ] Auto-interacting with Pokestops in range 
-- [ ] Pokeballs always hit
 - [ ] Web-based UI to configure everything listed here.
 Hosted on a per-person basis.
 - [ ] UI includes a map of all nearby pokemon
@@ -75,7 +76,9 @@ then have something to multi-select them, then hit a button to transfer them.
 API can be something like `GET /api/player/pokemon` for now
 and `POST /api/rpc/release`, I'm thinking.
 
-### MITM
+### Current Mockups
+![](img/mockup-transfer.png)
+![](img/mockup-settings.png)
 
 ### Ideas
 You've got an original idea?
