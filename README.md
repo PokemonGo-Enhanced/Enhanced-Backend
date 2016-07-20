@@ -2,8 +2,9 @@
 
 ## The Dream
 
-While this repository does not come with a lot of content,
-it does come with a dream.
+~While this repository does not come with a lot of content~
+~, it does come with a dream~
+We're building the dream!
 
 It's simple in essence.
 Make Pokemon Go more awesome
@@ -21,11 +22,13 @@ What follows is a little overview of dreams
 ### Will definitely happen
 - [x] Pokeballs always hit
 - [x] Auto-interacting with Pokestops in range (kinda)
+- [ ] Bulk transfer pokemon through UI (bye Pidgeotto)
+- [ ] Bulk evolve pokemon (get those Pidgeys and Weedles)
 - [ ] Extended visibility within the app
 - [ ] Web-based UI to configure everything listed here.
 Hosted on a per-person basis.
 - [ ] UI includes a map of all nearby pokemon
-- [ ] Bulk transfer pokemon through UI
+- [ ] In-app clues to nearby pokemons
 
 ### Brainstorming
 - [ ] Auto-dodge attacks
@@ -47,7 +50,7 @@ The proof of concept will exist of:
 - Node.js `v6.3`
 - MITM attacks: [rastapasta's pokemongo-mitm](https://github.com/rastapasta/pokemon-go-mitm-node.git)
 - Automated API calls: No decent lib out yet so generating my own
-- UI: Still need basic scaffolding! Whatever the contributor would prefer to work with
+- UI: Being designed and scaffolded as we speak
 
 ## Setup
 ```
