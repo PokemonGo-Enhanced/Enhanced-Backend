@@ -94,5 +94,5 @@ We even have this designer guy hanging around.
 More info at [the wiki](https://github.com/rubenvereecken/PokemonGo-Enhanced/wiki/Contributing)!
 
 ## Current Mockups
-![](https://github.com/rubenvereecken/PokemonGo-Enhanced/img/mockup-transfer.png)
-![](https://github.com/rubenvereecken/PokemonGo-Enhanced/img/mockup-settings.png)
+![](img/mockup-transfer.png)
+![](img/mockup-settings.png)
