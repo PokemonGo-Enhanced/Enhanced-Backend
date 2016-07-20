@@ -91,25 +91,8 @@ to have a chat on what part of the project you'd love to help with.
 Everyone's welcome: from web dev to TCP sleuth.
 We even have this designer guy hanging around.
 
-More info at [CONTRIBUTING.md](CONTRIBUTING.md)!
+More info at [the wiki](https://github.com/rubenvereecken/PokemonGo-Enhanced/wiki/Contributing)!
 
-## In-depth TODO
-### UI
-- [ ] Scaffold the UI. Can be anything, Angular 2 with bootstrap, whatever.
-- [ ] Create a page for displaying player details, can start out basic.
-Player info will be gotten over a REST API at `/api/player`
-- [ ] Create a page for basic config: turning on/off functionality.
-We can hash this API out together, should be at `/api/config`
-- [ ] Create a page for bulk transfer. Think on the design.
-It should have at least a way of fetching all current pokemons,
-then have something to multi-select them, then hit a button to transfer them.
-API can be something like `GET /api/player/pokemon` for now
-and `POST /api/rpc/release`, I'm thinking.
-
-### Current Mockups
-![](img/mockup-transfer.png)
-![](img/mockup-settings.png)
-
-### Ideas
-You've got an original idea?
-Sure, throw it in the Issues section.
+## Current Mockups
+![](https://github.com/rubenvereecken/PokemonGo-Enhanced/img/mockup-transfer.png)
+![](https://github.com/rubenvereecken/PokemonGo-Enhanced/img/mockup-settings.png)
