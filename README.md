@@ -44,18 +44,6 @@ Woah so how will we accomplish all of these magnificent things?
 We've got it all figured out right here, just need to implement it.
 The proof of concept will exist of:
 
-- mitmproxy: Man In The Middle attack program.
-This will sit in between the player on location
-and Niantic through a VPN or the like.
-This is how we can sniff and change everything that comes through
-in either direction.
-- python 2.7: Because of mitmproxy
-- flask: We'll probably use flask as a small web dev framework
-to get something up and running right away.
-- front-end: ???
-- community libs for manipulating the protobufs (think binary data)
-that come through
-
 - Node.js `v6.3`
 - MITM attacks: [rastapasta's pokemongo-mitm](https://github.com/rastapasta/pokemon-go-mitm-node.git)
 - Automated API calls: No decent lib out yet so generating my own
