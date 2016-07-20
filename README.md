@@ -22,7 +22,6 @@ What follows is a little overview of dreams
 - [x] Pokeballs always hit
 - [x] Auto-interacting with Pokestops in range (kinda)
 - [ ] Extended visibility within the app
-- [ ] Auto-interacting with Pokestops in range 
 - [ ] Web-based UI to configure everything listed here.
 Hosted on a per-person basis.
 - [ ] UI includes a map of all nearby pokemon
