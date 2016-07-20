@@ -20,7 +20,7 @@ What follows is a little overview of dreams
 
 ### Will definitely happen
 - [x] Pokeballs always hit
-- [x] (Kinda) Auto-interacting with Pokestops in range 
+- [x] Auto-interacting with Pokestops in range (kinda)
 - [ ] Extended visibility within the app
 - [ ] Auto-interacting with Pokestops in range 
 - [ ] Web-based UI to configure everything listed here.
