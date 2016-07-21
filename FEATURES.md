@@ -13,7 +13,6 @@ consider those nice-to-haves-but-rather-sooner-than-later.
 
 - [x] Always hit perfect spinning pokeballs
 - [ ] Automatically activate nearby pokestops
-- [ ]
 
 ## UI
 
