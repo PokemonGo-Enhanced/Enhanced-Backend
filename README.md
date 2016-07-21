@@ -3,7 +3,7 @@
 ## The Dream
 
 ~~While this repository does not come with a lot of content~~
-~~ it does come with a dream~~
+~~it does come with a dream~~
 We're building the dream!
 
 It's simple in essence.
