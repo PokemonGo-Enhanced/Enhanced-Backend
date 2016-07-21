@@ -61,11 +61,16 @@ The proof of concept will exist of:
 - Automated API calls: No decent lib out yet so generating my own
 - UI: Being designed and scaffolded as we speak
 
+### Requirements
+
+- Node `v6.3` or similar. I use [nvm](https://github.com/creationix/nvm) to switch.
+- Protobuf 3 can be a real bitch to install. It's absolutely required though, for now. Get it at https://github.com/google/protobuf/releases
+
 ## Setup
 ```
-~ git clone git@github.com:rubenvereecken/PokemonGo-Enhanced.git
-~ cd PokemonGo-Enhanced
-~ npm install
+➜ git clone git@github.com:rubenvereecken/PokemonGo-Enhanced.git
+➜ cd PokemonGo-Enhanced
+➜ npm install
 ```
 
 Now, you'll need to generate an SSL certificate that your phone trusts.
@@ -73,17 +78,13 @@ Right now this is done by starting the server once, we'll make this easier thoug
 
 Just start the server and kill it using `Ctrl+C`
 ```
-~ node index.js
+➜ node index.js
 [+++] PokemonGo MITM Proxy listening on 8080
 [!] Make sure to have the CA cert .http-mitm-proxy/certs/ca.pem installed on your device
 ```
 
 Do as it says, copy the certificate to your phone and install it.
 If you don't know how, follow instructions at https://support.google.com/nexus/answer/2844832
-
-### Possible difficulties
-
-- Protobuf 3 can be a real bitch to install. It's absolutely required though, for now. Get it at https://github.com/google/protobuf/releases
 
 ### Customization
 
