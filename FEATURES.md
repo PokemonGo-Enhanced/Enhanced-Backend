@@ -61,3 +61,7 @@ confirm first, * though this too can be turned off.
 using the Evolve button on a specific Pokemon card.
 The Evolve button is only enabled when enough candy is present.
 
+
+### Configuration
+- [ ] Turn on/off catch enhancement
+- [ ] Turn on/off auto-activation of pokestops
