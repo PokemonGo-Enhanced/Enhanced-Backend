@@ -2,22 +2,31 @@
 
 ## The Dream
 
-~While this repository does not come with a lot of content~
-~, it does come with a dream~
-We're building the dream!
-
-It's simple in essence.
-Make Pokemon Go more awesome
+It's really simple in essence.
+We're making Pokemon Go more awesome
 by giving an edge over others
 (face it, that's why most are here)
 but still making it fun to play
 by actually going out there.
+We're augmenting the experience.
+
+All you have to do is start up the proxy
+and connect to it,
+everything works magically
+and you decide what to do next.
+You can go out there in the field
+and use the game-enhancing features
+from within your app,
+or connect to the freshly started
+webserver to investigate your pokemons,
+bulk transfer or evolve those pidgeys,
+you name it.
+We hand you the tools, you decide.
 
 This repository will contain a single-deploy suite
 of nifty little things that together
 will make up Pokemon Go Enhanced.
-What follows is a little overview of dreams
-(or as devs like to call it, a TODO list).
+What follows is a little overview of features.
 
 ### Will definitely happen
 - [x] Pokeballs always hit
