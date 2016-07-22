@@ -10,8 +10,8 @@
     "haversine": "^1.0.0",
     "lodash": "^4.13.1",
     "morgan": "^1.7.0",
-    "pokemon-go-mitm": "rastapasta/pokemon-go-mitm-node",
-    "pokemongo-protobuf": "rastapasta/node-pokemongo-protobuf",
+    "pokemon-go-mitm": "rastapasta/pokemon-go-mitm-node#master",
+    "pokemongo-protobuf": "rastapasta/node-pokemongo-protobuf#master",
     "randgen": "^0.1.0",
     "request": "^2.73.0"
   },
