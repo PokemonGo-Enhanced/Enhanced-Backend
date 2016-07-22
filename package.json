@@ -2,7 +2,7 @@
   "name": "pokemongo-enhanced",
   "version": "1.0.0",
   "description": "Pokemon Go Enhanced",
-  "main": "index.js",
+  "main": "./lib/server.js",
   "dependencies": {
     "bluebird": "^3.4.1",
     "body-parser": "^1.15.2",
