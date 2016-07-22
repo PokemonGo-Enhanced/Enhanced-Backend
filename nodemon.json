@@ -1,0 +1,7 @@
+{
+  "verbose": false,
+  "ignore": ["dist", "coverage", "tests"],
+  "execMap": {
+    "js": "node"
+  }
+}

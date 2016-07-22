@@ -92,8 +92,12 @@ If you don't know how, follow instructions at https://support.google.com/nexus/a
 
 Customize it using environmental variables:
 ```
-EXPRESS_PORT=3030 PROXY_PORT=3031 node index.js
+EXPRESS_PORT=3030 PROXY_PORT=3031 npm start
 ```
+
+### Development
+
+Hack and slash with `npm run dev`
 
 ## Frontend
 Note that this repository contains only the backend.
@@ -106,7 +110,7 @@ We'll make this easier with a release build as soon as we reach MVP.
 Where do you come in you ask?
 Well we would love your help!
 
-Join us on [Slack](https://pkre.slack.com) 
+Join us on [Slack](https://pkre.slack.com)
 ([invite](https://shielded-earth-81203.herokuapp.com))
 in the channel `#enhanced`
 to have a chat on what part of the project you'd love to help with.
