@@ -2,12 +2,15 @@
   "name": "pokemongo-enhanced",
   "version": "1.0.0",
   "description": "Pokemon Go Enhanced",
-  "main": "index.js",
+  "main": "./lib/server.js",
   "dependencies": {
+    "bluebird": "^3.4.1",
     "body-parser": "^1.15.2",
     "cookie-parser": "^1.4.3",
+    "debug": "^2.2.0",
     "express": "^4.14.0",
     "haversine": "^1.0.0",
+    "is": "^3.1.0",
     "lodash": "^4.13.1",
     "morgan": "^1.7.0",
     "pokemon-go-mitm": "rastapasta/pokemon-go-mitm-node#master",
@@ -16,12 +19,19 @@
     "request": "^2.73.0"
   },
   "devDependencies": {
+    "babel-eslint": "^6.1.2",
     "coffee-script": "^1.10.0",
-    "jshint": "^2.9.2"
+    "eslint": "^3.1.1",
+    "eslint-config-airbnb-base": "^4.0.2",
+    "eslint-plugin-import": "^1.11.1",
+    "eslint-plugin-promise": "^2.0.0",
+    "nodemon": "^1.9.2"
   },
   "scripts": {
     "test": "npm run lint",
-    "lint": "jshint --exclude-path .gitignore ."
+    "lint": "eslint ./lib",
+    "dev": "DEBUG=mitm:*,enhanced:* nodemon ./lib/server.js",
+    "start": "NODE_ENV=production node ./lib/server.js"
   },
   "repository": {
     "type": "git",
@@ -38,9 +48,5 @@
   "bugs": {
     "url": "https://github.com/rubenvereecken/PokemonGo-Enhanced/issues"
   },
-  "homepage": "https://github.com/rubenvereecken/PokemonGo-Enhanced#readme",
-  "jshintConfig": {
-    "esversion": 6,
-    "node": true
-  }
+  "homepage": "https://github.com/rubenvereecken/PokemonGo-Enhanced#readme"
 }

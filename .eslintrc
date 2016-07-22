@@ -1,0 +1,33 @@
+{
+	"parser"  : "babel-eslint",
+	"extends" : [
+		"airbnb-base"
+	],
+	"env"     : {
+		"browser" : false
+	},
+	"rules": {
+		"no-console": 1,
+		"semi": [2, "always"],
+		"generator-star-spacing": 0,
+		"max-len": [2, 120, 2],
+		"import/no-unresolved": 2,
+		"import/export": 2,
+		"import/no-extraneous-dependencies": 2,
+		"import/no-mutable-exports": 2,
+		"import/no-amd": 2,
+		"import/imports-first": 2,
+		"import/no-duplicates": 2,
+		"import/no-namespace": [2, {"js": "never", "json": "always", "scss": "always"}],
+		"import/newline-after-import": 0,
+		"space-before-function-paren": ["error", {"anonymous": "always", "named": "never"}],
+		"object-curly-spacing": [2, "always"],
+		"promise/param-names": 2,
+    "promise/always-return": 2,
+    "promise/catch-or-return": 2,
+    "promise/no-native": 2,
+		"no-param-reassign": [2, {"props": false}],
+		"global-require": 0
+	},
+	"plugins": ["import", "promise"]
+}
