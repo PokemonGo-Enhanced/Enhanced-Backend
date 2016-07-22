@@ -36,5 +36,9 @@
   "bugs": {
     "url": "https://github.com/rubenvereecken/PokemonGo-Enhanced/issues"
   },
-  "homepage": "https://github.com/rubenvereecken/PokemonGo-Enhanced#readme"
+  "homepage": "https://github.com/rubenvereecken/PokemonGo-Enhanced#readme",
+  "jshintConfig": {
+    "esversion": 6,
+    "node": true
+  }
 }
