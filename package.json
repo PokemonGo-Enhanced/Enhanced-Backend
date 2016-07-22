@@ -16,10 +16,12 @@
     "request": "^2.73.0"
   },
   "devDependencies": {
-    "coffee-script": "^1.10.0"
+    "coffee-script": "^1.10.0",
+    "jshint": "^2.9.2"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "npm run lint",
+    "lint": "jshint --exclude-path .gitignore ."
   },
   "repository": {
     "type": "git",
@@ -36,5 +38,9 @@
   "bugs": {
     "url": "https://github.com/rubenvereecken/PokemonGo-Enhanced/issues"
   },
-  "homepage": "https://github.com/rubenvereecken/PokemonGo-Enhanced#readme"
+  "homepage": "https://github.com/rubenvereecken/PokemonGo-Enhanced#readme",
+  "jshintConfig": {
+    "esversion": 6,
+    "node": true
+  }
 }
