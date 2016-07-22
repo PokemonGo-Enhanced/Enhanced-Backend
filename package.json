@@ -30,8 +30,8 @@
   "scripts": {
     "test": "npm run lint",
     "lint": "eslint ./lib",
-    "dev": "DEBUG=mitm:*,enhanced:* nodemon index.js",
-    "start": "NODE_ENV=production node index.js"
+    "dev": "DEBUG=mitm:*,enhanced:* nodemon ./lib/server.js",
+    "start": "NODE_ENV=production node ./lib/server.js"
   },
   "repository": {
     "type": "git",
