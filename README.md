@@ -59,14 +59,16 @@ The proof of concept will exist of:
 - Node.js `v6.3`
 - MITM attacks: [rastapasta's pokemongo-mitm](https://github.com/rastapasta/pokemon-go-mitm-node.git)
 - Automated API calls: No decent lib out yet so generating my own
-- UI: Being designed and scaffolded as we speak
+- UI: Over at [Enhanced-Frontend](https://github.com/PokemonGo-Enhanced/Enhanced-Frontend)
 
+## Setup
 ### Requirements
 
 - Node `v6.3` or similar. I use [nvm](https://github.com/creationix/nvm) to switch.
 - Protobuf 3 can be a real bitch to install. It's absolutely required though, for now. Get it at https://github.com/google/protobuf/releases
 
-## Setup
+### Installation
+
 ```
 ➜ git clone git@github.com:rubenvereecken/PokemonGo-Enhanced.git
 ➜ cd PokemonGo-Enhanced
@@ -92,6 +94,13 @@ Customize it using environmental variables:
 ```
 EXPRESS_PORT=3030 PROXY_PORT=3031 node index.js
 ```
+
+## Frontend
+Note that this repository contains only the backend.
+If you want the UI for development, go check out
+[Enhanced-Frontend](https://github.com/PokemonGo-Enhanced/Enhanced-Frontend).
+
+We'll make this easier with a release build as soon as we reach MVP.
 
 ## Contribution
 Where do you come in you ask?
