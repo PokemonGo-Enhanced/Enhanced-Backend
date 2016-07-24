@@ -1,7 +1,7 @@
 # Pokemon Go Enhanced
 
 ## Frontend
-We host our frontend separately at (Pokemongo-Frontend)[https://github.com/PokemonGo-Enhanced/Enhanced-Frontend].
+We host our frontend separately at [Pokemongo-Frontend](https://github.com/PokemonGo-Enhanced/Enhanced-Frontend).
 While the backend can live perfectly well on its own,
 go check it out for even more functionality
 and super juicy screenshots!
