@@ -1,5 +1,11 @@
 # Pokemon Go Enhanced
 
+## Frontend
+We host our frontend separately at (Pokemongo-Frontend)[https://github.com/PokemonGo-Enhanced/Enhanced-Frontend].
+While the backend can live perfectly well on its own,
+go check it out for even more functionality
+and super juicy screenshots!
+
 ## The Dream
 
 It's really simple in essence.
@@ -23,16 +29,18 @@ bulk transfer or evolve those pidgeys,
 you name it.
 We hand you the tools, you decide.
 
-This repository will contain a single-deploy suite
+This repository contains a single-deploy suite
 of nifty little things that together
 will make up Pokemon Go Enhanced.
 What follows is a little overview of features.
 
-### Will definitely happen
-- [x] Pokeballs always hit
-- [x] Auto-interacting with Pokestops in range (kinda)
-- [ ] Bulk transfer pokemon through UI (bye Pidgeotto)
-- [ ] Bulk evolve pokemon (get those Pidgeys and Weedles)
+### Features
+- [x] Fix pokemon radar distance (1-3 paw prints)
+- [x] Pokeballs always hit perfect shots
+- [x] Auto-interacting with Pokestops in range
+- [x] Auto-release pokemons (based on UI-customizable rules)
+- [ ] Bulk transfer pokemon through UI (WIP)
+- [ ] Bulk evolve pokemon (WIP)
 - [ ] Extended visibility within the app
 - [ ] Web-based UI to configure everything listed here.
 Hosted on a per-person basis.
