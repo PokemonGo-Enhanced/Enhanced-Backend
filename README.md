@@ -80,7 +80,7 @@ Right now this is done by starting the server once, we'll make this easier thoug
 
 Just start the server and kill it using `Ctrl+C`
 ```
-➜ node index.js
+➜ npm run dev
 [+++] PokemonGo MITM Proxy listening on 8080
 [!] Make sure to have the CA cert .http-mitm-proxy/certs/ca.pem installed on your device
 ```
