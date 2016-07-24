@@ -35,6 +35,9 @@
     "dev": "cross-env DEBUG=mitm:*,enhanced:* nodemon ./lib/server.js",
     "start": "cross-env NODE_ENV=production node ./lib/server.js"
   },
+  "engines": {
+    "node": "6"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/rubenvereecken/PokemonGo-Enhanced.git"
