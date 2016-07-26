@@ -17,6 +17,7 @@
     "object.observe": "^0.2.6",
     "observed": "^1.1.2",
     "pokemon-go-mitm": "rastapasta/pokemon-go-mitm-node#master",
+    "pokemongo-data": "github:pokemongo-enhanced/node-pokemongo-data",
     "pokemongo-protobuf": "rastapasta/node-pokemongo-protobuf#master",
     "randgen": "^0.1.0",
     "request": "^2.74.0",
