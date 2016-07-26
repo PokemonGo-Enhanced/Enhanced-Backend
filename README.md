@@ -126,7 +126,3 @@ Everyone's welcome: from web dev to TCP sleuth.
 We even have this designer guy hanging around.
 
 More info at [the wiki](https://github.com/rubenvereecken/PokemonGo-Enhanced/wiki/Contributing)!
-
-## Current Mockups
-![](img/mockup-transfer.png)
-![](img/mockup-settings.png)
