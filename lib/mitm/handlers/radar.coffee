@@ -40,7 +40,7 @@ module.exports = (server) ->
 
   # Whenever a poke spot is opened, populate it with the radar info!
   server.addResponseHandler "FortDetails", (data) ->
-    if (!state.config.pokestopRadar) return;
+    return unless state.config.pokestopRadar
     console.log "fetched fort request", data
     info = ""
 
